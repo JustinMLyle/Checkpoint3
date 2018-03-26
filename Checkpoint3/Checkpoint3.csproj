@@ -154,6 +154,27 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803201629262_InitialCreate.cs" />
+    <Compile Include="Migrations\201803201629262_InitialCreate.Designer.cs">
+      <DependentUpon>201803201629262_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803261624147_Initial.cs" />
+    <Compile Include="Migrations\201803261624147_Initial.Designer.cs">
+      <DependentUpon>201803261624147_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803261632509_Rating.cs" />
+    <Compile Include="Migrations\201803261632509_Rating.Designer.cs">
+      <DependentUpon>201803261632509_Rating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803261642212_DataAnnotations.cs" />
+    <Compile Include="Migrations\201803261642212_DataAnnotations.Designer.cs">
+      <DependentUpon>201803261642212_DataAnnotations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803261646162_DataAnnotations1.cs" />
+    <Compile Include="Migrations\201803261646162_DataAnnotations1.Designer.cs">
+      <DependentUpon>201803261646162_DataAnnotations1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -217,6 +238,23 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201803201629262_InitialCreate.resx">
+      <DependentUpon>201803201629262_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803261624147_Initial.resx">
+      <DependentUpon>201803261624147_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803261632509_Rating.resx">
+      <DependentUpon>201803261632509_Rating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803261642212_DataAnnotations.resx">
+      <DependentUpon>201803261642212_DataAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803261646162_DataAnnotations1.resx">
+      <DependentUpon>201803261646162_DataAnnotations1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
